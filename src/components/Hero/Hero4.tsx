@@ -2,10 +2,10 @@ import { useState } from "react";
 const navLinkStyle =
 	"text-xl text-gray-600  hover:text-gray-800 md:w-auto w-full md:text-left text-center";
 
-const Hero1 = () => {
+const Hero4 = () => {
 	const [mobileMenuVisible, setMobileMenuVisible] = useState(true);
 	return (
-		<div className="lg:h-screen md:h-auto overflow-x-hidden h-screen text-center bg-gray-100">
+		<div className="md:h-auto overflow-x-hidden h-screen text-center bg-gray-100">
 			<div className="w-full px-10 md:px-24 relative text-center h-full">
 				<div className="flex items-center py-10 gap-14  ">
 					<img
@@ -16,7 +16,7 @@ const Hero1 = () => {
 
 					<div
 						className={
-							" gap-8 md:gap-14 absolute md:relative flex w-screen md:w-auto flex-wrap top-0 transition-all duration-500 md:h-auto h-screen md:py-0 content-center md:flex-nowrap bg-white md:bg-opacity-0 lg:mx-auto md:left-0 md:items-center flex-1 " +
+							" z-20 gap-8 md:gap-14 absolute md:relative flex w-screen md:w-auto flex-wrap top-0 transition-all duration-500 md:h-auto h-screen md:py-0 content-center md:flex-nowrap bg-white md:bg-opacity-0 lg:mx-auto md:left-0 md:items-center flex-1 " +
 							(mobileMenuVisible ? " left-0" : " left-full")
 						}
 					>
@@ -80,7 +80,7 @@ const Hero1 = () => {
 						</svg>
 					</button>
 				</div>
-				<div className="lg:mt-52 md:my-20 text-center my-32 ">
+				<div className="lg:mt-32 md:my-20 text-center my-12 relative">
 					<h1 className="lg:text-7xl md:text-5xl font-bold text-gray-800 mb-6 text-4xl">
 						Lorem ipsum dolor sit
 						<br />
@@ -100,9 +100,16 @@ const Hero1 = () => {
 							Site amet
 						</button>
 					</div>
+					<img
+                    className="mt-20 lg:mt-32 relative z-10 md:mb-24 mb-10"
+						src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4"
+						alt="Stock"
+					/>
+                    <div className="absolute bg-primary-lighter3 z-0 h-2/5 md:-bottom-24 -bottom-10 md:-left-24 -left-10 w-screen">
+                    </div>
 				</div>
 			</div>
 		</div>
 	);
 };
-export default Hero1;
+export default Hero4;
