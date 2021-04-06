@@ -1,8 +1,8 @@
-import Hero from './components/Hero/Hero5'
+import Feature from './components/Features/Feature1'
 
 function App() {
   return (
-    <Hero/>
+    <Feature/>
   );
 }
 
