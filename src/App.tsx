@@ -1,4 +1,4 @@
-import Feature from './components/Features/Feature1'
+import Feature from './components/Features/Feature2'
 
 function App() {
   return (
