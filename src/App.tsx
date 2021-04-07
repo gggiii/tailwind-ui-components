@@ -1,8 +1,8 @@
-import Feature from './components/Features/Feature2'
+import CTA from './components/CTA/CTA5'
 
 function App() {
   return (
-    <Feature/>
+    <CTA/>
   );
 }
 

@@ -1,6 +1,6 @@
 const Feature1 = () => {
 	return (
-		<div className="px-10 py-14 md:px-24 lg:px-40 lg:pb-24">
+		<div className="px-10 py-14 md:px-24 lg:px-40 lg:pb-24 ">
 			<p className="text-4xl font-bold mb-2 text-primary lg:text-center lg:mb-5">
 				Lorem ipsum dolor site
 			</p>
