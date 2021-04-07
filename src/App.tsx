@@ -1,4 +1,4 @@
-import Pricing from './components/Pricing/Pricing2'
+import Pricing from './components/Pricing/Pricing3'
 
 function App() {
   return (

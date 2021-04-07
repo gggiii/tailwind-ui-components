@@ -11,7 +11,7 @@ module.exports = {
 			white: colors.white,
 			black: colors.black,
 			dark: {
-				DEFAULT: colors.gray['800']
+				DEFAULT: colors.gray["800"],
 			},
 
 			primary: {
@@ -26,9 +26,10 @@ module.exports = {
 	variants: {
 		extend: {
 			outline: ["focus", "hover"],
-			margin: ['odd', 'even']
+			margin: ["odd", "even"],
+			ringWidth: ["hover", "focus"],
+			ringColor: ["hover", "focus"],
 		},
 	},
-	plugins: [
-	],
+	plugins: [],
 };
