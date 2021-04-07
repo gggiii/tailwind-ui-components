@@ -1,8 +1,8 @@
-import CTA from './components/CTA/CTA5'
+import Pricing from './components/Pricing/Pricing2'
 
 function App() {
   return (
-    <CTA/>
+    <Pricing/>
   );
 }
 

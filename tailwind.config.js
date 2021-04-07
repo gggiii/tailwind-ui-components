@@ -1,6 +1,5 @@
 const colors = require("tailwindcss/colors");
 
-const plugin = require('tailwindcss/plugin')
 module.exports = {
 	purge: [],
 	darkMode: false, // or 'media' or 'class'
@@ -27,6 +26,7 @@ module.exports = {
 	variants: {
 		extend: {
 			outline: ["focus", "hover"],
+			margin: ['odd', 'even']
 		},
 	},
 	plugins: [
