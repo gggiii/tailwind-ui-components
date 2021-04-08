@@ -1,8 +1,8 @@
-import Faq from './components/FAQ/FAQ4'
+import Tes from './components/Testimonial/Testimonial2'
 
 function App() {
   return (
-    <Faq/>
+    <Tes/>
   );
 }
 

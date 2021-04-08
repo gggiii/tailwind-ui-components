@@ -10,6 +10,7 @@ module.exports = {
 			gray: colors.gray,
 			white: colors.white,
 			black: colors.black,
+			transparent: colors.transparent,
 			dark: {
 				DEFAULT: colors.gray["800"],
 			},
